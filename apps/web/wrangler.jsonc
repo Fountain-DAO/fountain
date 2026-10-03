@@ -16,4 +16,16 @@
       "custom_domain": true,
     },
   ],
+  "triggers": {
+    // Records claims whose settlement clock has filled, and pays out.
+    "crons": ["* * * * *"],
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fountain",
+      "database_id": "2379e64b-39f0-4162-91f8-c66eb31863ec",
+      "migrations_dir": "migrations",
+    },
+  ],
 }
