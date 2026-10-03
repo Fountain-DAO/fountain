@@ -11,7 +11,9 @@
     "lint": "oxlint",
     "typecheck": "pnpm --recursive run typecheck",
     "format": "oxfmt",
-    "format:check": "oxfmt --check"
+    "format:check": "oxfmt --check",
+    "test": "pnpm --recursive run test",
+    "sim": "pnpm --filter @fountain/sim run sim"
   },
   "devDependencies": {
     "oxfmt": "0.71.0",

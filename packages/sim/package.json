@@ -1,0 +1,18 @@
+{
+  "name": "@fountain/sim",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Simulates traders, whales and griefers against the engine to choose settlement parameters.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "sim": "node src/main.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@fountain/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1"
+  }
+}

@@ -14,10 +14,11 @@ Anyone can publish a claim and put points behind it. Others stake on what they b
 
 ## Repository layout
 
-| Path       | What it is                                                              |
-| ---------- | ----------------------------------------------------------------------- |
-| `apps/web` | The website at fountain.markets (React Router 8 on Cloudflare Workers). |
-| `packages` | Shared packages. The market engine (`packages/engine`) will live here.  |
+| Path              | What it is                                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| `apps/web`        | The website at fountain.markets (React Router 8 on Cloudflare Workers).                                     |
+| `packages/engine` | The market maths: pricing, funding, the leaky settlement clock and payouts, in exact integers.              |
+| `packages/sim`    | Simulates informed traders, noise, griefers and whales against the engine, to choose settlement parameters. |
 
 ## Development
 
@@ -30,6 +31,8 @@ pnpm build
 pnpm lint        # oxlint
 pnpm format      # oxfmt
 pnpm typecheck
+pnpm test        # Vitest
+pnpm sim         # settlement simulation, printed as Markdown tables
 ```
 
 The site is built with Vite and styled with plain CSS (`apps/web/app/app.css`). Deploying (`pnpm run deploy` in `apps/web`) needs access to the Cloudflare account.

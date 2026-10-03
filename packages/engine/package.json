@@ -1,0 +1,18 @@
+{
+  "name": "@fountain/engine",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fountain's market maths: pricing, funding, the leaky settlement clock and payouts.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}
