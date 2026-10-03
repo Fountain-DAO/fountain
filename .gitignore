@@ -138,3 +138,7 @@ dist
 # React Router
 /.react-router/
 /build/
+
+# Claude Code
+.claude/worktrees/
+.claude/settings.local.json

@@ -537,3 +537,50 @@ img {
   overflow-x: auto;
   padding: 1rem;
 }
+
+/* ---- Legal pages ---- */
+
+.legal {
+  max-width: 42rem;
+  margin-inline: auto;
+  padding-block: 3rem 4.5rem;
+}
+
+.legal-title {
+  font-family: var(--font-serif);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.legal-updated {
+  margin-block: 0.5rem 2rem;
+  font-size: 0.875rem;
+  color: var(--color-gray-light);
+}
+
+.legal h2 {
+  margin-block: 2rem 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.legal p,
+.legal ul {
+  margin-bottom: 1rem;
+}
+
+.legal ul {
+  padding-left: 1.25rem;
+  list-style: disc outside;
+}
+
+.legal li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.legal a {
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
