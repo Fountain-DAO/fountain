@@ -1,0 +1,25 @@
+{
+  "name": "fountain",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fountain: a market for open questions in science, maths and technology.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --recursive run build",
+    "dev": "pnpm --filter web run dev",
+    "lint": "oxlint",
+    "typecheck": "pnpm --recursive run typecheck",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
+  },
+  "devDependencies": {
+    "oxfmt": "0.71.0",
+    "oxlint": "^1.86.0",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@12.8.1+sha512.f64ba907507f5ceafe06c8d38e6052d0179444580ec1279ddd5bfc11cb48aa8a2644b66598e07e761da84872a9fc57d5f902b87fa49d024198d558612aabbe45"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "web",
+  "main": "./workers/app.ts",
+  "compatibility_date": "2026-10-03",
+  "workers_dev": true,
+  "assets": {
+    // Prerendered pages are built as /page/index.html. Serve them at /page, the URL the
+    // site links to, and redirect /page/ there, instead of the default trailing slash.
+    "html_handling": "drop-trailing-slash",
+  },
+  "routes": [
+    {
+      "pattern": "fountain.markets",
+      "custom_domain": true,
+    },
+  ],
+}

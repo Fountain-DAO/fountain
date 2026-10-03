@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill-rule="nonzero">
+            <polygon id="ICON-F-Copy" fill="#5743F8" points="5 8 13 8 11.6666667 11 5 11"></polygon>
+            <polygon id="ICON-F" fill="#28D048" points="2.76029199e-13 17 8.66666667 3.78085484e-15 18 1.41782056e-15 16 3.92307692 11.3333333 3.92307692 4.66666667 17"></polygon>
+        </g>
+    </g>
+</svg>
