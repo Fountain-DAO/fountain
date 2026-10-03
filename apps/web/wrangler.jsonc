@@ -16,6 +16,10 @@
       "custom_domain": true,
     },
   ],
+  "vars": {
+    // X user ids (comma-separated) that can join without an invite and create unlimited invites.
+    "ADMIN_X_USER_IDS": "1010812501611565056",
+  },
   "triggers": {
     // Records claims whose settlement clock has filled, and pays out.
     "crons": ["* * * * *"],
