@@ -3,7 +3,8 @@
   "name": "fountain",
   "main": "./workers/app.ts",
   "compatibility_date": "2026-10-03",
-  "workers_dev": true,
+  "workers_dev": false,
+  "preview_urls": true,
   "assets": {
     // Prerendered pages are built as /page/index.html. Serve them at /page, the URL the
     // site links to, and redirect /page/ there, instead of the default trailing slash.
